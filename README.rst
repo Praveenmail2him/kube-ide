@@ -106,36 +106,6 @@ For server side completion kube-shell uses
 `client-python <https://github.com/kubernetes-incubator/client-python>`__
 libray to fetch the resources.
 
-Status
-------
-
-Kube-shell should be useful now. But given that its aim is to increase
-productivity and easy of use, it can be improved in a number of ways. If
-you have suggestions for improvements or new features, or run into a bug
-please open an issue
-`here <https://github.com/cloudnativelabs/kube-shell/issues>`__ or chat
-in the `Gitter <https://gitter.im/kube-shell/Lobby>`__.
-
-Acknowledgement
----------------
-
-Kube-shell is inspired by `AWS
-Shell <https://github.com/awslabs/aws-shell>`__,
-`SAWS <https://github.com/donnemartin/saws>`__ and uses awesome Python
-`prompt
-toolkit <https://github.com/jonathanslenders/python-prompt-toolkit>`__
-
-.. |Build Status| image:: https://travis-ci.org/cloudnativelabs/kube-shell.svg?branch=master
-   :target: https://travis-ci.org/cloudnativelabs/kube-shell
-.. |PyPI version| image:: https://badge.fury.io/py/kube-shell.svg
-   :target: https://badge.fury.io/py/kube-shell
-.. |PyPI pyversions| image:: https://img.shields.io/pypi/pyversions/ansicolortags.svg
-   :target: https://pypi.python.org/pypi/kube-shell/
-.. |License| image:: http://img.shields.io/:license-apache-blue.svg
-   :target: http://www.apache.org/licenses/LICENSE-2.0.html
-.. |Gitter chat| image:: http://badges.gitter.im/kube-shell/Lobby.svg
-   :target: https://gitter.im/kube-shell/Lobby
-
 
 Future Plans
 -------------
