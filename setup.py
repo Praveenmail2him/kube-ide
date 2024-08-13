@@ -19,15 +19,16 @@ requires = [
     'Pygments>=2.1.3,<3.0.0',
     'fuzzyfinder>=1.0.0',
     'click>=4.0,<7.0',
-    'kubernetes>=0.10.0,<3.0.0',
+    'kubernetes>=1.29.3,<3.0.0',
+    
 ]
 
 setup(
     name='kube-shell',
     version=__version__,
     description='Kubernetes shell: An integrated shell for working with the Kubernetes CLI',
-    author='Cloudnative Labs',
-    url='https://github.com/cloudnativelabs/kube-shell',
+    author='CloudNativeForum',
+    url='https://github.com/CloudNativeForum/kube-ide.git',
     packages=find_packages(),
     package_data={'kubeshell': ['data/cli.json']},
     zip_safe=False,
@@ -52,5 +53,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.9',
     ),
 )
