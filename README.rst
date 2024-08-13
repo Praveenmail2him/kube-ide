@@ -90,8 +90,8 @@ button.
 You can run any shell command by prefixing command with "!". For e.g.
 !ls would list from the current directory.
 
-Under the hood
---------------
+At the background
+-----------------
 
 Other than generation of suggestions all heavy lifting is done by
 Python's `prompt
@@ -135,3 +135,10 @@ toolkit <https://github.com/jonathanslenders/python-prompt-toolkit>`__
    :target: http://www.apache.org/licenses/LICENSE-2.0.html
 .. |Gitter chat| image:: http://badges.gitter.im/kube-shell/Lobby.svg
    :target: https://gitter.im/kube-shell/Lobby
+
+
+Future Plans
+-------------
+
+.. Kube-shell will be updated for every K8s (kubectl) release version.
+.. Will be extended for OpenShift (oc) version.
