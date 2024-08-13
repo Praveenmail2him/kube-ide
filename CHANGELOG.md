@@ -1,5 +1,5 @@
-# v0.0.21
+# v0.0.1
 
-- suppressing urllib3 warnings and errors
-- client-python library issues due to failed connections
+- will be maintained henceforth.
+- client-python library issues due to failed connections during build.
 - logging kube-shell errors to `$HOME/.kube/shell/error.log`
