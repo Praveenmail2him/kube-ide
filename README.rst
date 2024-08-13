@@ -140,5 +140,6 @@ toolkit <https://github.com/jonathanslenders/python-prompt-toolkit>`__
 Future Plans
 -------------
 
-.. Kube-shell will be updated for every K8s (kubectl) release version.
-.. Will be extended for OpenShift (oc) version.
+Kube-shell will be updated for every K8s (kubectl) release version.
+
+Will be extended for OpenShift (oc) version.
